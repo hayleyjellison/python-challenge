@@ -31,10 +31,10 @@ clean = list(zip(candy,votes))
 winner = [win for win in clean if win[1] == max(votes)]
 
 
-print(khan_votes)
-print(correy_votes)
-print(li_votes)
-print(otooley_votes)
+# print(khan_votes)
+# print(correy_votes)
+# print(li_votes)
+# print(otooley_votes)
 
 
 khan_per = (khan_votes/voter_count)*100
